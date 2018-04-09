@@ -4,7 +4,7 @@ Multinomial mixture variant caller
 
 ## Dependencies
 
-- julia v0.3.x
+- julia v0.6.x
 - [ArgParse](https://github.com/carlobaldassi/ArgParse.jl)
 - [FastaIO](https://github.com/carlobaldassi/FastaIO.jl)
 - [JSON](https://github.com/JuliaIO/JSON.jl)
