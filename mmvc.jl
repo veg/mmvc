@@ -910,7 +910,7 @@ function main(args)
 
     # Check if version is being request and exit if so
     if args[1] == "--version"
-      print("v1.0.3\n")
+      print("v1.0.2\n")
       return
     end
 
