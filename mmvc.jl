@@ -908,6 +908,12 @@ end
 
 function main(args)
 
+    # Check if version is being request and exit if so
+    if args[1] == "--version"
+      print("v1.0.2\n")
+      return
+    end
+
     # Parse arguments.
 
     s = ArgParseSettings()
