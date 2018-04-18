@@ -978,8 +978,7 @@ function main(args)
         target_rate=parsed_args["target-rate"], posterior_threshold=parsed_args["posterior-threshold"], json_file = parsed_args["json-report"])
 
     # If instructed to, filter the sequences.
-
-    if "filter" in keys(parsed_args)
+    if parsed_args["filter"] !== nothing
         filterseqs(parsed_args["msa"], variants, parsed_args["filter"], alphabet)
     end
 end
